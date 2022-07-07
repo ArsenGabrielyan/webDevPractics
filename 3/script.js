@@ -1,8 +1,39 @@
-function factorial(n){
-     if(n===0){
-          return 1
-     } else{
-          return n * factorial(n-1)
-     }
+let user = {
+     name: "q",
+     children: [
+          {
+               name: "r",
+               children: [
+                    {
+                         name: "d",
+                         children: [
+                              {
+                                   name: "g",
+                                   children: []
+                              }
+                         ]
+                    },
+                    {
+                         name: "b",
+                         children: [
+                              {
+                                   name: "u",
+                                   children: []
+                              },{
+                                   name: "l",
+                                   children: []
+                              }
+                         ]
+                    },
+                    {
+                         name: "t",
+                         children: []
+                    }
+               ]
+          },
+          {
+               name: "p",
+               children: []
+          }
+     ]
 }
-console.log(factorial(5))
