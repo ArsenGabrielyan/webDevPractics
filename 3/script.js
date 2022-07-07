@@ -1,4 +1,4 @@
-let user = {
+let user = [{
      name: "q",
      children: [
           {
@@ -36,4 +36,17 @@ let user = {
                children: []
           }
      ]
+}]
+
+user.filter(item=>{
+     func(item)
+})
+function func(a){
+   for(let x in a){
+     if(typeof(a[x])=="object"){
+          func(a[x])
+     }else if (x=="name"){
+          console.log(`${x}: ${a[x]}`)
+     }
+   }  
 }
