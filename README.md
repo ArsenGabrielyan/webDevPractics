@@ -1,4 +1,4 @@
-# JS Exercise Test 
+# JS Exercises I Did
 
 This is a List of Exercise I Did in JS.
 
