@@ -17,3 +17,5 @@ This is a List of Exercises I Did in JS.
 
 > GitHub [@ArsenGabrielyan](https://github.com/ArsenGabrielyan) &nbsp;&middot;&nbsp;
 > [Arsen's Website](https://arsen-g.web.app)
+
+<!-- Use git push origin HEAD:refs/heads/HEAD to push -->
