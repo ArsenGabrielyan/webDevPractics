@@ -14,6 +14,9 @@ This is a List of Exercises I Did in JS.
 - Return the Objects Keys and Values
 - Second Method of Find String, That Contains Numbers in Array
 - Reverse the Odd Length Words
+- Return Duplicate Numbers
+- Next Happy Year
+- Triangular Number Sequence
 
 > GitHub [@ArsenGabrielyan](https://github.com/ArsenGabrielyan) &nbsp;&middot;&nbsp;
 > [Arsen's Website](https://arsen-g.web.app)
