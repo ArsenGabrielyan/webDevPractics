@@ -18,6 +18,9 @@ This is a List of Exercises I Did in JS.
 - Next Happy Year
 - Triangular Number Sequence
 
+### Changes:
+- Changed from jsPractics to webDevPractics
+
 > GitHub [@ArsenGabrielyan](https://github.com/ArsenGabrielyan) &nbsp;&middot;&nbsp;
 > [Arsen's Website](https://arsen-g.web.app)
 
