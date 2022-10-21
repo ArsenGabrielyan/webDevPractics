@@ -17,6 +17,7 @@ This is a List of Exercises I Did in JS.
 - Return Duplicate Numbers
 - Next Happy Year
 - Triangular Number Sequence
+- Flipping Card with Just a Click
 
 ### Changes:
 - Changed from jsPractics to webDevPractics
