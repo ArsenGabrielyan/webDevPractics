@@ -18,6 +18,8 @@ This is a List of Exercises I Did in JS.
 - Next Happy Year
 - Triangular Number Sequence
 - Flipping Card with Just a Click
+- Count Frequencies From Array
+- Count Number of Occurrences
 
 ### Changes:
 - Changed from jsPractics to webDevPractics
