@@ -20,6 +20,8 @@ This is a List of Exercises I Did in JS.
 - Flipping Card with Just a Click
 - Count Frequencies From Array
 - Count Number of Occurrences
+- Fill Array With Values
+- Find Unique Elements from 2 Arrays
 
 ### Changes:
 - Changed from jsPractics to webDevPractics

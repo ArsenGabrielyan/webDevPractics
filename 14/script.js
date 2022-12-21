@@ -5,19 +5,13 @@ function removeDuplicates(arr){
      arr.forEach(el => !newArr.includes(el) ? newArr.push(el) : "")
      return newArr
 }
-function iterateArrays(a){
-     for(let i=0; i<=a.length; i++){
-          return removeDuplicates(a.split("")).length
-     }
-}
+function iterateArrays(a){for(let i=0; i<=a.length; i++)return removeDuplicates(a.split("")).length}
 
 // Main Function
 function happyYear(year){
      const nextYear = year+1;
      const isHappyYear = iterateArrays(`${nextYear}`) === `${year}`.length;
-     if(!isHappyYear){
-          return happyYear(nextYear);
-     }
+     if(!isHappyYear)return happyYear(nextYear);
      console.log(nextYear);
 }
 happyYear(2017)
