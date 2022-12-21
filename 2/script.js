@@ -1,6 +1,4 @@
-function numInStr(arr) {
-     console.log(arr.filter(el=>/\d+/.test(el)))
-}
+const numInStr = (arr) => console.log(arr.filter(el=>/\d+/.test(el)));
 numInStr(["1a", "a", "2b", "b"])
 numInStr(["abc", "abc10"])
 numInStr(["abc", "ab10c", "a10bc", "bcd"]) 
