@@ -1,5 +1,5 @@
 function findMissingValues(arr = []){
-     if(!Array.isArray(arr))return "This is Not an Array, Try typing an Array like This: [1,2,3,4,5,6,7,8,9]"
+     !Array.isArray(arr) ? "This is Not an Array, Try typing an Array like This: [1,2,3,4,5,6,7,8,9]" : "";
      let a = arr[1] - arr[0]
      let result = 0;
      for(let i=2; i<arr.length; i++){
