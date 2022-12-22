@@ -1,6 +1,4 @@
-:root{
-     --orange: #FF9617;
-     --blue: #3887DD;
+:root{--orange: #FF9617;--blue: #3887DD;
 }
 *{
      margin: 0;
@@ -16,18 +14,10 @@ body{
      flex-direction: column;
      min-height: 100vh;
 }
-.bluebg{
-     background: var(--blue);
-}
-.orangebg{
-     background: var(--orange);
-}
-.blue{
-     color: var(--blue);
-}
-.orange{
-     color: var(--orange);
-}
+.bluebg{background: var(--blue);}
+.orangebg{background: var(--orange);}
+.blue{color: var(--blue);}
+.orange{color: var(--orange);}
 .flip-card{
      background-color: transparent;
      width: 450px;
@@ -42,13 +32,8 @@ body{
      transition: transform .8s;
      transform-style: preserve-3d;
 }
-.flip-card.active .inner{
-     transform: rotateY(180deg);
-}
-.border{
-     width: 100%;
-     height: 10px;
-}
+.flip-card.active .inner{transform: rotateY(180deg);}
+.border{width: 100%;height: 10px;}
 .btn{
      padding: 10px 30px;
      text-transform: uppercase;
@@ -62,9 +47,7 @@ body{
      left: 33%;
      z-index: 999;
 }
-.btn:hover{
-     cursor: pointer;
-}
+.btn:hover{cursor: pointer;}
 .flip-card .front, .flip-card .back{
      position: absolute;
      width: 100%;
@@ -74,43 +57,23 @@ body{
      background-color: white;
      z-index: 999;
 }
-.title{
-     font-size: 40px;
-     margin: 30px 0 25px 0 ;
-}
-.price{
-     font-size: 30px;
-     font-weight: 300;
-}
-.little-bit-small{
-     font-size: 25px;
-}
-.text{
-     margin: 30px 0;
-}
-.flip-card .back{
-     transform: rotateY(180deg);
-}
+.title{font-size: 40px;margin: 30px 0 25px 0 ;}
+.price{font-size: 30px;font-weight: 300;}
+.little-bit-small{font-size: 25px;}
+.text{margin: 30px 0;}
+.flip-card .back{transform: rotateY(180deg);}
 .bluebtn{
      border: 2px solid var(--blue);
      background-color: var(--blue);
      color: white
 }
-.bluebtn:hover{
-     border: 2px solid var(--blue);
-     color: var(--blue);
-     background-color: white;
-}
+.bluebtn:hover{color: var(--blue);background-color: white;}
 .orangebtn{
      border: 2px solid var(--orange);
      background-color: var(--orange);
      color: white;
 }
-.orangebtn:hover{
-     border: 2px solid var(--orange);
-     color: var(--orange);
-     background-color: white;
-}
+.orangebtn:hover{color: var(--orange);background-color: white;}
 .info{
      width: 450px;
      background-color: white;
@@ -122,30 +85,13 @@ body{
      text-align: center;
      color: #555;
 }
-.info-text::before{
-     content: "If you are a small business (under $3M in ARR) just getting started, SABX has a pricing option to help you scale.";
-}
-.info-text.active::before{
-     content: "If you are a business with over $3M in ARR we have a fixed pricing option to better for your business size.";
-}
-.link-container{
-     text-align: center;
-     margin: 20px 0;
-}
-.info-link{
-     color: black;
-}
-#option::before{
-     content: "STARTUP";
-}
-#option.active::before{
-     content: "STANDARD";
-}
+.info-text::before{content: "If you are a small business (under $3M in ARR) just getting started, SABX has a pricing option to help you scale.";}
+.info-text.active::before{content: "If you are a business with over $3M in ARR we have a fixed pricing option to better for your business size.";}
+.link-container{text-align: center;margin: 20px 0;}
+.info-link{color: black;}
+#option::before{content: "STARTUP";}
+#option.active::before{content: "STANDARD";}
 @media screen and (max-width: 425px) {
-     .flip-card, .info{
-          width: 300px;
-     }
-     .btn{
-          left: 25%;
-     }
+     .flip-card, .info{width: 300px;}
+     .btn{left: 25%;}
 }

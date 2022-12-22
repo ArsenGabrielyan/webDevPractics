@@ -2,7 +2,7 @@ function numInStrWithoutRegExp(arr){
      let result = arr.filter(el => {
           let valid = false
           el.split("").forEach(char =>{if(Number.isInteger(parseInt(char))) valid = true;})
-          if(valid) return el
+          if(valid) return el;
      })
      console.log(result)
 }
