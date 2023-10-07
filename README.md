@@ -1,6 +1,4 @@
-# JS Exercises I Did
-
-This is a List of Exercises I Did in JS.
+# HTML, CSS, Bootstrap and JS Exercises I Did
 
 * Count How Many Trues in Array Has
 * Find String, That Contains Numbers in Array
@@ -24,6 +22,8 @@ This is a List of Exercises I Did in JS.
 * Fill Array With Values
 * Find Unique Elements from 2 Arrays
 * Remove Falsy Values From Objects (Arrays)
+* Rock Band Website Template With Bootstrap
+* Clothings Website Template With Bootstrap
 
 ### Changes:
 - Changed from jsPractics to webDevPractics

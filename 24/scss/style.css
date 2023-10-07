@@ -1,0 +1,260 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&family=Nunito:ital,wght@0,400;0,500;0,700;1,400&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+body {
+  background-color: #f8f9fa;
+}
+
+.nav-link, .dropdown-item {
+  font-weight: bold;
+}
+
+.link-regular {
+  font-weight: 400;
+}
+
+.gap {
+  margin: 50px 0;
+}
+
+.gap-small {
+  margin: 25px 0;
+}
+
+.title {
+  padding: 20px 0;
+}
+
+.right {
+  font-size: 25px;
+}
+
+.right .icon {
+  margin: 0 10px;
+}
+
+.box1 {
+  width: 100%;
+}
+
+.box1 img {
+  width: 100%;
+}
+
+.box1 .box1-body {
+  top: 0px;
+  left: 0px;
+  padding: 25px 36px;
+  width: 100%;
+  height: 100%;
+}
+
+.btn-black {
+  background: black;
+  color: white;
+}
+
+.btn-black:hover {
+  background: #dbdbdb;
+  color: black;
+}
+
+.badge-black {
+  background: black;
+  color: white;
+}
+
+.box-2 img {
+  width: 100%;
+  max-width: 600px;
+  margin: 10px 0;
+  -webkit-filter: grayscale(75%);
+          filter: grayscale(75%);
+}
+
+.box-2:hover .hoverBox {
+  display: block;
+}
+
+.no-gap {
+  margin-top: -5px;
+}
+
+.text-orangered {
+  color: #f44336;
+}
+
+.bg-orangered {
+  background: #f44336;
+}
+
+.grayscale-50 {
+  -webkit-filter: grayscale(64%);
+          filter: grayscale(64%);
+}
+
+.pos-badge {
+  top: 7px;
+  z-index: 9999;
+}
+
+.hoverBox {
+  display: none;
+  z-index: 99999;
+  position: absolute;
+  left: 25%;
+  bottom: 55%;
+}
+
+@media screen and (min-width: 992px) {
+  .navbar {
+    width: 100% !important;
+    height: 100vh;
+    -webkit-box-align: start;
+        -ms-flex-align: start;
+            align-items: flex-start;
+  }
+  .navbar .container-fluid {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: start;
+        -ms-flex-align: start;
+            align-items: flex-start;
+  }
+  .navbar a {
+    width: 200px;
+  }
+  .navbar-expand-lg .navbar-collapse {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  .navbar-expand-lg .navbar-nav {
+    -webkit-box-align: start !important;
+        -ms-flex-align: start !important;
+            align-items: flex-start !important;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  .navbar-expand-lg .navbar-nav .dropdown-menu.show {
+    position: static;
+    background-color: white;
+    margin-left: 2rem;
+    border: none;
+  }
+  .navbar-expand-lg .navbar-nav .nav-link:hover, .navbar-expand-lg .navbar-nav .btn-modal:hover, .navbar-expand-lg .navbar-nav .dropdown-item:hover {
+    color: black;
+    background: #dbdbdb;
+  }
+  .navbar-brand {
+    font-weight: bold;
+    letter-spacing: 5px;
+    margin-left: .5rem;
+    font-size: 1.7rem;
+    font-family: "Montserrat";
+  }
+}
+
+@media screen and (max-width: 1024px) {
+  .hoverBox {
+    left: 15%;
+  }
+}
+
+@media screen and (max-width: 992px) {
+  .hoverBox {
+    left: 30%;
+    bottom: 50%;
+  }
+}
+
+@media screen and (max-width: 425px) {
+  .hoverBox {
+    left: 15%;
+    bottom: 55%;
+  }
+}
+
+@media screen and (max-width: 375px) {
+  .hoverBox {
+    left: 8%;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .hoverBox {
+    bottom: 60%;
+  }
+  .hoverBox a {
+    font-size: 12px;
+  }
+}
+
+.subscribe-box {
+  background: black;
+  padding: 25px;
+}
+
+.btn-orangered {
+  background: #f44336;
+  color: white;
+  margin: 10px 0;
+}
+
+.btn-orangered:hover {
+  background-color: #dbdbdb;
+  color: black;
+}
+
+.site-footer {
+  background: #dbdbdb;
+  padding: 16px;
+}
+
+.copyright {
+  background: black;
+  padding: 16px;
+}
+
+.frm input {
+  margin: 10px 0;
+}
+
+.frm button {
+  width: 100%;
+}
+
+.link-black {
+  color: black;
+  font-weight: lighter;
+  font-size: 13px;
+  margin: -1px;
+}
+
+.lst-info {
+  margin: 15px 0;
+  padding: 0 !important;
+  list-style: none;
+}
+
+.lst-payment {
+  margin: 15px 0;
+  padding: 0 !important;
+  list-style: none;
+}
+
+.sm a {
+  color: black;
+  font-size: 20px;
+}
+/*# sourceMappingURL=style.css.map */
