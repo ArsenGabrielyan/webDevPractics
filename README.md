@@ -29,6 +29,6 @@
 - Changed from jsPractics to webDevPractics
 
 > GitHub [@ArsenGabrielyan](https://github.com/ArsenGabrielyan) &nbsp;&middot;&nbsp;
-> [Arsen's Website](https://arsen-g.web.app)
+> [Arsen's Website](https://arsen-2005.vercel.app)
 
 <!-- Use git push origin HEAD:refs/heads/HEAD to push -->
